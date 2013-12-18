@@ -1,0 +1,24 @@
+@charset "UTF-8";
+
+dog {
+	margin: 15px;
+}
+
+name {
+	display: block;
+	font: bold 18pt;
+}
+
+age {
+	display: block;
+	color: red;
+}
+
+fullBlood {
+	display: none;
+}
+
+color {
+	display: block;
+	font-style: italic;
+}

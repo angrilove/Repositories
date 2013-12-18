@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>json.html</title>
+    <meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+    <script type="text/javascript" src="http://ajax.microsoft.com/ajax/jQuery/jquery-1.7.2.js"></script>
+    <script type="text/javascript">
+    $(document).ready(function() {
+    	$.ajax({
+    		url: 'http://localhost:8080/spring_mvc_ex4/json/ajax',
+    		success: function(json,status , xhr) {					
+    			if (window.console) console.log(json, status, xhr); else alert( json );
+    		}, 
+    		error: function(err) {
+    			
+    			alert( err);
+    		},
+    		type: 'get'
+    	});
+    });
+    </script>
+  </head>
+  
+  <body>
+  <h1>HELLO WORLD.</h1>
+  </body>
+</html>

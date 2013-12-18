@@ -1,0 +1,12 @@
+<!-- CREATE DEFAULT TEMPLATE DTD FILE -->
+<!ELEMENT myDogs (dog+)>
+
+<!-- The dog section -->
+<!ELEMENT dog (name, age, fullBlood, color)>
+<!ATTLIST dog breed CDATA #REQUIRED>
+<!ELEMENT name (#PCDATA)>
+<!ELEMENT age (years, months)>
+	<!ELEMENT months (#PCDATA)>
+	<!ELEMENT years (#PCDATA)>
+<!ELEMENT fullBlood (#PCDATA)> 
+<!ELEMENT color (#PCDATA)>

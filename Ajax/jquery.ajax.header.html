@@ -1,0 +1,107 @@
+<!DOCTYPE HTML>
+<html>
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8"/>
+<title>Anshen&trade;</title>
+<script type="text/javascript" src="jquery-1.7.1.js"></script>
+<script type="text/javascript">
+$(document).ready(function() {
+	$("button").click(function( e ) {
+		$.ajax({ // GET
+			url: "http://localhost/ajax/data/ajax.txt",
+			type: "GET",
+			async: false, 
+			cache: true,
+			success: function( data, statusText, xhr ) {
+				$("#get").append( xhr.responseText );
+				console.info( data, statusText, xhr );
+				console.log( this.type );
+			},
+			error: function( res ) {
+				console.log( res, res.responseText );
+			}
+		});
+		
+		$.ajax({ // POST
+			url: "http://localhost/ajax/data/ajax.txt",
+			type: "POST",
+			async: false, 
+			cache: true,
+			success: function( data, statusText, xhr ) {
+				$("#post").append( xhr.responseText );
+				console.info( data, statusText, xhr );
+				console.log( this.type );
+			},
+			error: function( res ) {
+				console.log( res, res.responseText );
+			}
+		});
+		
+		$.ajax({ // HEAD
+			url: "http://localhost/ajax/data/ajax.txt",
+			type: "HEAD",
+			async: false, 
+			cache: true,
+			success: function( data, statusText, xhr ) {
+				$("#head").append( xhr.responseText );
+				console.info( data, statusText, xhr );
+				console.log( this.type );
+			},
+			error: function( res ) {
+				console.log( res, res.responseText );
+			}
+		});
+		
+		$.ajax({ // PUT
+			url: "http://localhost/ajax/data/ajax.txt",
+			type: "PUT",
+			async: false, 
+			cache: true,
+			success: function( data, statusText, xhr ) {
+				$("#put").append( xhr.responseText );
+				console.info( data, statusText, xhr );
+				console.log( this.type );
+			},
+			error: function( res ) {
+				console.log( res, res.responseText );
+			}
+		});
+		
+		$.ajax({ // DELETE
+			url: "http://localhost/ajax/data/ajax.txt",
+			type: "DELETE",
+			async: false, 
+			cache: true,
+			success: function( data, statusText, xhr ) {
+				$("#delete").append( xhr.responseText );
+				console.info( data, statusText, xhr );
+				console.log( this.type );
+			},
+			error: function( res ) {
+				console.log( res, res.responseText );
+			}
+		});
+	});
+});
+</script>
+</head>
+<body>
+<style type="text/css">
+div.divider {
+	border-top:dashed 1px red;
+	width:100%;
+}
+</style>
+<div id="get"></div>
+<div class="divider"></div>
+<div id="post"></div>
+<div class="divider"></div>
+<div id="head"></div>
+<div class="divider"></div>
+<div id="put"></div>
+<div class="divider"></div>
+<div id="delete"></div>
+<div class="divider"></div>
+<button type="button">Click Me</button>
+</body>
+</hTml>

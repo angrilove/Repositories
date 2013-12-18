@@ -1,0 +1,27 @@
+<?xml version="1.0" ?>
+
+<project name="javacTest" default="jar" basedir=".">
+	<property name="base" value="helloworld"/>
+	<target name="clean">
+		<delete dir="${basedir}/build" />
+	</target>
+	<target name="compile" depends="clean">
+		<mkdir dir="${basedir}/build/classes"/>
+		<javac srcdir="${basedir}/src" destdir="${basedir}/build/classes"/>
+	</target>
+	<target name="run" depends="compile">
+		<java classname="HelloWorld">
+			<classpath>
+				<pathelement path="${basedir}/build/classes"/>
+			</classpath>
+		</java>
+	</target>
+	<target name="jar" depends="run">
+		<mkdir dir="${basedir}/lib"/>
+		<jar destfile="helloworld.jar" basedir="${basedir}/build/classes" jarfile="${basedir}/lib/${base}.jar">
+			<manifest>
+				<attribute name="Main-class" value="HelloWorld"/>
+			</manifest>
+		</jar>
+	</target>
+</project>

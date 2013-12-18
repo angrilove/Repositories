@@ -1,0 +1,17 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>json.html</title>
+    <meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+    <script type="text/javascript" src="http://www.jquery.com/jquery-last.js"></script>
+    <script type="text/javascript">
+    $.getJSON("http://localhost:8080/spring_mvc_ex4/json/out", function( json ) {
+    	if (window.console) console.log(json); else alert( json );
+    });
+    </script>
+  </head>
+  
+  <body>
+  <h1>HELLO WORLD.</h1>
+  </body>
+</html>

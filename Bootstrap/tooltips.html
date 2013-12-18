@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="zh">
+<head>
+	
+	<title>Bootstrap 101 Template</title>
+	<meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+	<link rel="stylesheet" type="text/css" media="screen" href="bootstrap/css/bootstrap-responsive.css">
+	<link rel="stylesheet" type="text/css" media="screen" href="bootstrap/css/bootstrap.css">
+
+	<script type="text/javascript" src="http://code.jquery.com/jquery-latest.js"></script>
+	<script type="text/javascript" src="bootstrap/js/bootstrap.js"></script>
+	
+<script type="text/javascript">
+$(document).ready(function() {
+	//$("a[rel='tooltip']").tooltip('show');
+	$("a[rel='tooltip']").hover(function() {
+		$(this).tooltip("show");
+	}, function() {
+		$(this).tooltip("hide");
+	});
+});
+</script>
+</head>
+<body>
+	<h1>Tooltips!</h1>
+	<div class="tooltips">
+
+		<a href="#" rel="tooltip" data-original-title="提示" data-animation="true" data-html="true" data-placement="top" data-title="data-title" title="悬停提示" data-trigger="click">鼠标悬停</a>
+		<div class="tooltip fade top in"></div>
+
+	</div>
+</body>
+</html>

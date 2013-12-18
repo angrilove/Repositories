@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project-module
+  type="WEB"
+  name="ThinkInWeb"
+  id="myeclipse.1352189355042"
+  context-root="/ThinkInWeb"
+  j2ee-spec="6.0"
+  archive="ThinkInWeb.war">
+  <attributes>
+    <attribute name="webrootdir" value="WebRoot" />
+  </attributes>
+</project-module>
+

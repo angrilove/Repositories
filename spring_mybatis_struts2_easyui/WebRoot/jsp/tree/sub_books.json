@@ -1,0 +1,12 @@
+[{
+    "text":"Program",
+    "iconCls":"icon-mini-refresh",
+},{
+    "text":"Languages",
+    "state":"closed",
+    "children":[{
+        "text":"Java"
+    },{
+        "text":"C#"
+    }]
+}]

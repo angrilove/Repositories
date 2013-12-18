@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="utf-8"?>
+<project name="build-jar" default="jar" basedir=".">
+	<target name="jar">
+		<jar destfile="${basedir}/report4StaticHtml.jar" basefile="${basedir}/build.properties"></jar>
+	</target>
+</project>

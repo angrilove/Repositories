@@ -1,0 +1,6 @@
+statusCode=200
+message=这条信息很好
+callbackType=closeCurrent
+navTabId=productDetail
+forwardUrl=pdu?do=buy&fwlink=addAction
+fwlink=http://www.anshen-loton.org/fwlink/pd/?sh=g

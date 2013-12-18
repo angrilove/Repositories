@@ -1,0 +1,22 @@
+<!DOCTYPE sqlMap
+	PUBLIC "-//ibatis.apache.org//DTD SQL Map 2.0//EN"
+	"http://ibatis.apache.org/dtd/sql-map-2.dtd">
+<sqlMap id="Account" namespace="Acount">
+	<cacheModel id="cacheid" type="LRU" readOnly="false" serialize="false">
+		<flushInterval hours="24" minutes="30" seconds="24" milliseconds="500"/>
+		<flushOnExeute statement="insertSql"/>
+		<flushOnExeute statement="updateSql"/>
+		<flushOnExeute statement="deleteSql"/>
+		<property name="cache-size" value="1024"/>
+	</cacheModel>
+
+	<typeAlias alias="p" type="com.ll.Acount"/>
+
+	<parameterMap id="pp" class="p">
+		<parameter property="id"/>
+	</parameterMap>
+
+	<statement id="sid" cacheModel="cacheid">
+		SELECT * FROM T
+	</statement>
+</sqlMap>

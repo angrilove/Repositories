@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="utf-8" ?>
+
+<!-- 使用 ant -buildfile xxx.xml 命令可以执行命名非build.xml的文件 -->
+<project name="x-buildPro" default="getBaseDir" basedir=".">
+	<target name="getBaseDir">
+		<echo message="The base dir is: ${basedir}"/>
+	</target>
+</project>

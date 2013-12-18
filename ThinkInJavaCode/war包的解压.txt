@@ -1,0 +1,2 @@
+可用jar命令解压 jar -xvf file.war
+可用WinRAR解压

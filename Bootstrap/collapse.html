@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html lang="zh">
+<head>
+	
+	<title>Bootstrap 101 Template</title>
+	<meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+	<link rel="stylesheet" type="text/css" media="screen" href="bootstrap/css/bootstrap-responsive.css">
+	<link rel="stylesheet" type="text/css" media="screen" href="bootstrap/css/bootstrap.css">
+
+	<script type="text/javascript" src="http://code.jquery.com/jquery-latest.js"></script>
+	<script type="text/javascript" src="bootstrap/js/bootstrap.js"></script>
+<script type="text/javascript">
+$(document).ready(function() {
+	//
+});
+</script>
+</head>
+<body>
+	<h1>Collapse!</h1>
+
+	<div class="">
+		<button type="button" class="btn btn-danger" data-toggle="collapse" data-target="#demo">简单折叠面板</button>
+		
+		<div id="demo" class="collapse in">
+			<pre>sss</pre>
+		</div>
+	</div>
+
+<div class="accordion" id="accordion2">
+	<div class="accordion-group">
+		<div class="accordion-heading">
+			<a class="accordion-toggle" data-toggle="collapse" data-parent="#accordion2" href="#collapseOne">
+			Collapsible Group Item #1
+			</a>
+		</div>
+		<div id="collapseOne" class="accordion-body collapse in">
+			<div class="accordion-inner">
+			Anim pariatur cliche...
+			</div>
+		</div>
+	</div>
+	<div class="accordion-group">
+		<div class="accordion-heading">
+			<a class="accordion-toggle" data-toggle="collapse" data-parent="#accordion2" href="#collapseTwo">
+			Collapsible Group Item #2
+			</a>
+		</div>
+		<div id="collapseTwo" class="accordion-body collapse">
+			<div class="accordion-inner">
+			Anim pariatur cliche...
+			</div>
+		</div>
+	</div>
+</div>
+</body>
+</html>

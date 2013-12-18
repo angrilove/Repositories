@@ -1,0 +1,8 @@
+[{
+	"id": "all", 
+	"text": "所有城市"
+},{
+	"id": "sh",
+	"text": "上海市",
+	"selected": true
+}]

@@ -1,0 +1,14 @@
+<!DOCTYPE html>
+<html>
+<head lang="zh-cn">
+	<meta http-equiv="Content-Type" content="text/html; charset=UTF-8"/>
+	<title>index html</title>
+</head>
+<body>
+	<iframe id="iframecallback" name="iframecallback" src="javascript:'<html></html>';" style="display:none;"></iframe>
+	<form action="data/ajaxDone.html" target="iframecallback" method="POST" enctype="multipart/form-data">
+		<input type="file" name="file" />
+		<button type="submit">提交</button>
+	</form>
+</body>
+</html>

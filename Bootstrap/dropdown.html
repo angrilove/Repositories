@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html lang="zh">
+<head>
+	
+	<title>Bootstrap 101 Template</title>
+	<meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+	<link rel="stylesheet" type="text/css" media="screen" href="bootstrap/css/bootstrap-responsive.css">
+	<link rel="stylesheet" type="text/css" media="screen" href="bootstrap/css/bootstrap.css">
+
+	<script type="text/javascript" src="http://code.jquery.com/jquery-latest.js"></script>
+	<script type="text/javascript" src="bootstrap/js/bootstrap.js"></script>
+
+	<script type="text/javascript">
+$(document).ready(function() {
+	$(".dropdown-toggle").dropdown('toggle');
+});
+	</script>
+
+</head>
+<body>
+	<h1>Dropdown</h1>
+
+	<div class="dropdown">
+		<a href="#" class="dropdown-toggle" data-toggle="dropdown">首页</a>
+
+		<ul class="dropdown-menu" role="menu">
+			<li><a href="#">菜单一</a></li>
+			<li><a href="#">菜单一</a></li>
+			<li><a href="#">菜单一</a></li>
+			<li><a href="#">菜单一</a></li>
+			<li><a href="#">菜单一</a></li>
+		</ul>
+	</div>
+
+	<div class="dropdown">
+		<a href="/page/html" id="dLabel" class="dropdown-toggle" role="button" data-toggle="dropdown" data-target="#">
+			下拉表单
+			<b class="caret"></b>
+		</a>
+
+		<ul class="dropdown-menu" role="menu" aria-labelledby="dLabel">
+			<li><a href="#">菜单1</a></li>
+			<li><a href="#">菜单1</a></li>
+			<li><a href="#">菜单1</a></li>
+			<li><a href="#">菜单1</a></li>
+		</ul>
+	</div>
+</body>
+</html>

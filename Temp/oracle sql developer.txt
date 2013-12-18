@@ -1,0 +1,15 @@
+dzrz
+	用 户 名： wsnssb
+	口    令： 
+	url: wsnssb@//192.168.1.7:1521/orcl
+	
+JXWCoal:
+	用 户 名： wsnssb
+	密    码： aaaaaa
+	url: wsnssb@//192.168.1.14:1521/orcl
+	
+JXWCoalTest:
+	用 户 名： mthyxxx
+	密    码： 111111
+	url： mthyxxxx@//192.168.1.14:1521/orcl
+	

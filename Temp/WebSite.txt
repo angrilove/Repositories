@@ -1,0 +1,120 @@
+http://www.csdn.net/article/2013-05-03/2815127-Android-open-source-projects
+
+---
+..................
+http://wenda.hiall.com.cn
+http://sebug.net
+http://www.sage.net
+http://www.ccw.com.cn
+http://jqueryvsmootools.com
+http://www.nodebeginner.org
+http://stackoverflow.com
+http://westhoffswelt.de/projects/activebar2.html
+http://www.pylonsproject.org
+http://www.opensymphony.com
+http://www.opensymphony.com/oscore
+http://www.nczonline.net/downloads
+http://archive.bclary.com/xbProjects-docs/xbObject
+
+---
+..................
+ - (Java) JSP EL JSTL AND OTHER
+http://www.java2s.com/
+http://www.tutorialspoint.com/
+http://java.net/
+
+---
+..................
+ - WebUI
+http://www.uimaker.com/
+
+---
+..................
+ - (JavaScript) CSS selector engine
+Sizzle http://sizzlejs.com
+Sly http://www.clientcide.com/3rd-party-libraries/sly-the-latest-ccs-selector-engine - Just engine
+
+---
+..................
+ - JavaScript website
+JQuery http://jquery.com
+ExtJs http://www.sencha.com
+MooTools http://mootools.net
+YUI Library http://developer.yahoo.com/yui
+Prototype http://prototypejs.org
+Dojo http://dojotoolkit.org
+
+ - JavaScript tools
+Clickheat http://www.labsmedia.com/clickheat/index.html
+Jcrop http://deepliquid.com/content/Jcrop.html
+Paintweb http://code.google.com/p/paintweb
+Highcharts http://www.highcharts.com
+JX http://alloyteam.github.com/JX
+ThinkCss http://code.google.com/p/thinkcss
+Everyjs http://everyjs.co.cc - use canvas
+CryptoJs http://code.google.com/p/crypto-js
+JavaScriptMvc http://javascriptmvc.com
+Qooxdoo http://qooxdoo.org/ - JavaScript GUI framework
+
+ - JavaScript tools for games
+Melonjs http://www.melonjs.org
+LimeJS http://www.limejs.com
+
+ - JavaScript other
+Controljs http://stevesouders.com/controljs  - http://www.oschina.net/p/controljs
+
+---
+..................
+ - A new language framework for mobile
+Mobl http://www.mobl-lang.org
+
+---
+..................
+ - For paint
+Uimaker http://www.uimaker.com
+
+---
+..................
+ - Open Sources Web Browser Engine
+KHTML http://www.konqueror.org/features/browser.php
+Gecko https://developer.mozilla.org/en/Gecko
+QtWebkit http://trac.webkit.org/wiki/QtWebKit
+
+---
+..................
+ - Open Sources Javascript Engine
+V8 http://code.google.com/p/v8
+SpiderMonkey https://developer.mozilla.org/en/SpiderMonkey
+
+---
+..................
+ - Build Tools
+Qt  http://qt.nokia.com/downloads
+Visual C++ Express http://www.microsoft.com/express/Downloads
+
+---
+..................
+ - Tools
+Pthreads http://sourceware.org/pthreads-win32
+JSLint http://www.jslint.com
+JSLint For Notepad++ http://sourceforge.net/projects/jslintnpp
+
+---
+...................
+ - Project Framework - Based ExtJs
+JxStar http://jxstar.org http://code.google.com/p/jxstar
+
+---
+..................
+ - IE Memory Leaks
+http://outofhanwell.com/ieleak/index.php?title=Main_Page
+
+---
+..................
+ - OSWorkflow
+http://java.net/downloads/osworkflow/
+
+JavaScript
+http://www.javascript.com/
+http://www.ijavascript.com/
+https://developer.mozilla.org/zh-CN/

@@ -1,0 +1,32 @@
+// Settings in here override those in "Default/Preferences.sublime-settings", and
+// are overridden in turn by file type specific settings.
+{
+
+    // Set font style
+    "font_face": "Courier 10 Pitch", // Courier New, Courier 10 Pitch, Consolas
+
+    "font_size": 9,
+
+    // Set update
+    "update_check": false,
+
+    // Set tabs
+    "translate_tabs_to_spaces": true,
+
+    // Set unindent, howere it cannot be used
+    "shift_tab_unindent": false,
+
+    // Set line style
+    "highlight_line": true,
+
+    // Set spell checking
+    "spell_check": false,
+
+    "default_line_ending": "unix",
+
+    //
+    // Application Behavior Settings
+    //
+
+    "close_windows_when_empty": true
+}

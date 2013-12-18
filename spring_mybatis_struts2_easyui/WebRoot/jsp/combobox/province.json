@@ -1,0 +1,11 @@
+[{
+	"id": "all",
+	"text": "所有省市",
+	"selected":true
+},{
+	"id": "bj",
+	"text": "北京"
+},{
+	"id": "sh",
+	"text": "上海"
+}]

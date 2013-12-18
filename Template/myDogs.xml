@@ -1,0 +1,30 @@
+<!DOCTYPE myDogs SYSTEM "myDogs.dtd">
+<?xml-stylesheet href="mydogs.css" type="text/css"?>
+<myDogs>
+	<dog breed="riben">
+		<name>Morgan</name>
+		<age>
+			<years>0</years>
+			<months>10</months>
+		</age>
+		<color>chocolate</color>
+	</dog>
+	
+	<dog breed="riben">
+		<name>Molly</name>
+		<age>
+			<years>8</years>
+			<months>11</months>
+		</age>
+		<color>yellow</color>
+	</dog>
+
+	<dog breed="riben">
+		<name>Casey</name>
+		<age>
+			<years>6</years>
+			<months>2</months>
+		</age>
+		<color>brown</color>
+	</dog>
+</myDogs>
